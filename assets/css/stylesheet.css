@@ -1,0 +1,21 @@
+#male{
+    float: left;
+    padding:30px;   
+    height: 10px;    
+}
+
+#female{
+    float: left;
+    padding:30px; 
+    height: 10px; 
+}
+.container{
+   display: block;
+   background: lightskyblue;
+   margin-top: 40px;
+
+}
+.form-group{
+ 
+    
+}

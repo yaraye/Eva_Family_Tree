@@ -1,0 +1,62 @@
+/* <!-- 
+<br><br><br>
+
+        <div class="form-row">
+                 <select class="custom-select custom-select-sm">
+                        <option selected>Prefix:</option>
+                        <option value="">Mr.</option>
+                        <option value="2">Mrs.</option>
+                        <option value="3">Miss</option>
+                        <option value="3">Dr.</option>
+                        
+                </select> -->
+          <!-- <div id="col1"class="col-md-4 mb-3">
+    
+                <label for="validationTooltip01">First name</label>
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          
+          <div id="col2" class="col-md-4 mb-3">
+                <label for="validationTooltip02">Last name</label>
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+<br><br><br> 
+
+<div class="form-row">
+<div id="birth" class="col-md-4 mb-3">
+    <!-- add time here:-note to self -->
+        <label for="validationTooltip01">Birthday:</label>
+        <input type="date" name="bdaytime">
+ 
+</div>
+<div id="col2" class="col-md-4 mb-3">
+        <label for="validationTooltip02">Place of Birthday</label>
+    <input type="text" class="form-control" placeholder="Place of Birthday">
+  </div>
+</div>
+<br><br>
+<div class="form-row">
+        <div id="email" class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div id"invites" class="form-group col-md-6">
+          <label for="inputPassword4">Invite to join sited</label>
+          <input type="checkbox" name="vehicle1" value="Bike"> 
+        </div>
+      </div>
+<br><br><br>
+      <div id="living">
+          <input type="checkbox" name="vehicle1" value="Bike"> Living
+      </div>
+      <div id="deceased">
+          <input type="checkbox" name="vehicle2" value="Car"> Deceased
+      </div>
+
+     
+                
+                
+</form>
+
+    --> */

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/stylesheet.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jquery -->
+     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <!-- momentjs -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    
+</head>
+<body>
+  
+  <div class="container">
+    <!-- Content here -->
+    <header>
+        <h3>Edit Your Portfile</h3>
+    </header>
+<form>
+    <div id="male" >
+        <input type="radio" name="gender" value="male" checked> Male
+    </div>
+        <div id="female">
+            <input  type="radio" name="gender" value="female"> Female
+        </div>
+        <br><br><br>
+
+        <form>
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputfirstName">First Name</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputlastName">Last Name</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                        </div>
+        
+                      </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            
+            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <script text="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
