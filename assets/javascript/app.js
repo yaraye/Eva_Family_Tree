@@ -46,21 +46,36 @@ var tree = {
   ]
 };
 
-$('#submit').on('click', function(event){
-  event.preventdefualt();
+
+$('#submit').on('click', function(){
+  // event.preventdDefault();
   //user input--
-  var firstName=$('#inputfirstName').val().trim();
+  var firstName=$('#firstName').val().trim();
+  var lastName=$('#lastName').val().trim();
+  var email=$('#inputEmail4').val().trim();
+  var password=$('#inputPassword4').val().trim();
+  var address=$('#inputAddress').val().trim();
+  var address2=$('#inputAddress2').val().trim();
+  var city=$('#inputCity').val().trim();
+  var state=$('#inputState').val().trim();
+  var country=$('#inputCountry').val().trim();
+  var zipCode=$('#inputZip').val().trim();
 
+//   console.log(firstName);
 
-});
-
-
-
-// to push to firebasse
+// var newPerson= {name:firstName}
+// // to push to firebasse
+// database.ref().push(newPerson);
 database.ref().push({
-  Name: firstName,
+  Fname:firstName,
+  Lname:lastName,
+  
+})
+
 
 });
+
+
 
 
 database.ref().on("child_added", function(childSnapshot, prevChildKey){
@@ -68,5 +83,15 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey){
   console.log(childSnapshot.val());
 
   // assign firebase variables to snapshots
-  var name = childSnapshot.val().Name;
+  var firstName = childSnapshot.val().fname;
+
+//   var newName= $('<div>');
+//  newName.html(name);
+//  console.log(name);
+
+// $('#idName').append(newName);
+$('#idName').append(firstName);
+
+
+
 });
